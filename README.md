@@ -1,68 +1,81 @@
 ### Hi there! 👋 I'm Lucas Besbati
 
-I'm a developer who is passionate about pushing the boundaries of biology through machine learning.
+I'm a senior studying Informatics at the University of Washington with a background in biology, and I'm driven by a simple question: *how can we use machine learning to understand the building blocks of life?* From predicting RNA structures to training object detection models on bonsai trees, I love working at the intersection of code and the natural world.
 
 **About Me**
-- 🖥️ Experienced in web development for local businesses
-- 🎓 Current senior in Informatics at UW
-- 🐍 Skilled in Python & object-oriented programming
-- 🧪 Interested in bioinformatics and computational biology
-- 👾 Leaugue of Legends enthusiast
-- 📫 Contact me: [linkedin.com/in/besbati/](https://www.linkedin.com/in/besbati/)
+- 🧬 ML + bioinformatics researcher at the UW DAIS Lab
+- 🎓 B.S. Informatics @ UW · A.S. Biology @ Cascadia College
+- 🖥️ Full-stack experience building tools for local businesses and student orgs
+- 👾 League of Legends enthusiast
+- 📫 Let's connect: [linkedin.com/in/besbati/](https://www.linkedin.com/in/besbati/)
 
-**Education**
-- University of Washington
-- Degree: Bachelor of Science in Informatics
-- Sep 2022 - Dec 2026
+---
 
-- Cascadia Community College
-- Degree: Associate of Science in Biology
-- Sep 2020 - Jun 2022
-
-### Undergraduate Research
+### 🔬 Undergraduate Research
 
 **DAIS DeepTracer — University of Washington**
+*Machine Learning & Bioinformatics Research Assistant · Oct 2024 – Jun 2025*
 
-As a Machine Learning/Bioinformatics Research Assistant at the DAIS Lab, I contributed to the DeepTracer project focused on RNA structure prediction.
+Contributed to the DeepTracer project under Drs. Dong Si and Jie Hou, focused on improving RNA 3D structure prediction from cryo-EM density maps. Built automated database scrapers and ChimeraX pipelines to curate a large-scale RNA density map training dataset used to train the lab's deep learning models.
 
-- **Tech:** Python, ChimeraX, BeautifulSoup, Pytorch
-- **Duration:** Oct 2024 – June 2025
+- Developed Python scrapers to collect and process structural biology data from public repositories
+- Automated molecular visualization workflows in ChimeraX, reducing manual data prep time
+- Contributed to a training dataset supporting ongoing RNA motif classification research
 
-### Projects
+**Tech:** Python, PyTorch, ChimeraX, BeautifulSoup
+
+---
+
+### 🛠️ Projects
 
 **Software Consultant Capstone — Pacific Bonsai Museum**
+*Dec 2025 – Present*
 
---In progress
+Working as a software consultant for the Pacific Bonsai Museum to modernize their digital asset management and species identification workflow. Building a computer vision pipeline to classify bonsai species from images and integrating it with the museum's SharePoint-based image library.
 
-- **Tech:** PyTorch, YOLOv8, Azure API, Power Automate, SharePoint
-- **Duration:** Dec 2025 – Present
+- Training a YOLOv8 object detection model to identify and classify bonsai species
+- Configuring SharePoint search schema and Power Automate flows for the museum's digital catalog
+- Collaborating directly with museum staff to translate non-technical needs into working solutions
+
+**Tech:** PyTorch, YOLOv8, Azure API, Power Automate, SharePoint
+
+---
 
 **CareerFlo**
 
-An internship tracker resource that leverages the OpenAI API to provide resume review and mock interview functions for UX/UI and SDE positions.
+An internship tracker that helps UX/UI and SDE job seekers stay organized and interview-ready. Integrated the OpenAI API to power resume review feedback and mock interview simulations, giving students a lightweight alternative to expensive coaching tools.
 
-- **Tech:** JavaScript, HTML/CSS, React, OpenAI API
+- Built a React frontend with resume upload and AI-powered feedback generation
+- Designed mock interview flows that adapt questions based on target role (UX vs. SDE)
+
+**Tech:** JavaScript, React, HTML/CSS, OpenAI API
+
+---
 
 **AI Football Match Predictor**
 
-An AI-driven football match predictor that analyzes web-scraped data using Pandas and Beautiful Soup, achieving a 70% accuracy rate in predicting match outcomes.
+Scraped and analyzed historical football match data to build a classifier that predicts match outcomes with ~70% accuracy. Focused on feature engineering from raw match stats and iterating on model selection to improve predictions.
 
-- **Tech:** Python, Pandas, BeautifulSoup, scikit-learn
+- Collected and cleaned multi-season match data using web scraping with BeautifulSoup
+- Engineered features from rolling averages, home/away splits, and head-to-head records
+- Evaluated multiple classifiers with scikit-learn, achieving 70% prediction accuracy
+
+**Tech:** Python, Pandas, BeautifulSoup, scikit-learn
+
+---
 
 **Local Business & Student Organization Websites**
 
-Developed interactive websites for a local food review business and two student organizations using HTML, CSS, and JavaScript, enhancing their online presence.
+Developed interactive websites for a local food review business and two UW student organizations, improving their online visibility and member engagement.
 
-- **Tech:** JavaScript, HTML/CSS
+**Tech:** JavaScript, HTML/CSS
 
-**I'm familiar with**
-- Python
-- Java
-- JavaScript / TypeScript
-- HTML/CSS
-- React
-- R
-- SQL
-- Git
-- Jupyter
-- scikit-learn / Pandas / NumPy
+---
+
+### 🧰 Tech I Work With
+
+**Languages:** Python · Java · JavaScript / TypeScript · R · SQL · HTML/CSS
+
+**Frameworks & Libraries:** React · scikit-learn · Pandas · NumPy · PyTorch
+
+**Tools:** Git · Jupyter · Azure · SharePoint · Power Automate
