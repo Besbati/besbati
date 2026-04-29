@@ -33,12 +33,13 @@ Contributed to the DeepTracer project under Drs. Dong Si and Jie Hou, focused on
 
 [Smart Image Uploader for Pacific Bonsai Museum](https://team-bloom-capstone-image-uploader-1.onrender.com)
  
-Working with the Pacific Bonsai Museum to rebuild how they catalog and search their image library. The museum's current SharePoint setup makes it hard for staff to find specific bonsai portraits or pull relevant images for exhibits, so we're wrapping a computer vision pipeline around the tools they already use day-to-day — no migration, no new platform for staff to learn.
+We have worked with the Pacific Bonsai Museum to rebuild how they catalog and search their image library. The museum's current SharePoint setup makes it hard for staff to find specific bonsai portraits or pull relevant images for exhibits, so we're wrapping a computer vision pipeline around the tools they already use day-to-day — no migration, no new platform for staff to learn.
  
 **Project Goals**
 - Streamline and future-proof media organization and storage for the museum
 - Build an upload and tagging interface that non-technical museum staff can use without training
 - Extend the museum's SharePoint setup to support text-to-image search, auto-generated metadata, and dynamic folder structures
+
 **Process & My Contributions**
  
 We're a five-person team consisting of two developers, a project manager, and two UX designers. I am the lead developer and have worked to build a user-friendly interface that seamlessly integrates with the museum's existing Sharepoint system to create an intuitive media processing solution. The interface allows the museum staff to more easily work through their backlog of photos as well as process new media without needing technical skills or an extensive knowledge of Sharepoint.
