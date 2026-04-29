@@ -30,6 +30,7 @@ Contributed to the DeepTracer project under Drs. Dong Si and Jie Hou, focused on
  
 **Pacific Bonsai Museum — Digital Asset Management Redesign**
 *Software Consultant Capstone · Dec 2025 – Present*
+
 [Smart Image Uploader for Pacific Bonsai Museum](https://team-bloom-capstone-image-uploader-1.onrender.com)
  
 Working with the Pacific Bonsai Museum to rebuild how they catalog and search their image library. The museum's current SharePoint setup makes it hard for staff to find specific bonsai portraits or pull relevant images for exhibits, so we're wrapping a computer vision pipeline around the tools they already use day-to-day — no migration, no new platform for staff to learn.
