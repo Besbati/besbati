@@ -53,10 +53,12 @@ On the team side, we've been running regular check-ins with museum staff since w
 - Real-world data is messier than benchmark data. We spent more time curating a dataset than we did tuning a model which we had to abandon anyways.
 - Deadends are a natural outcome of the design process. As a developer, you must be ready to change courses or abandon ideas.
 - A lot of "engineering" on a real client project is translation — between what the client says they want, what they actually need, and what we can ship in a quarter.
+  
 **Next Steps**
 - Finalize the metadata suggestion logic and dynamic folder rules in Power Automate
 - Run end-to-end testing with museum staff using their actual image backlog
 - Write handoff documentation so the system stays maintainable after the team graduates
+  
 **Tech:** PyTorch · YOLOv8 · Azure · SharePoint · Power Automate
  
 ---
