@@ -25,21 +25,41 @@ Contributed to the DeepTracer project under Drs. Dong Si and Jie Hou, focused on
 **Tech:** Python, PyTorch, ChimeraX, BeautifulSoup
 
 ---
+ 
+### 🎓 Capstone Project
+ 
+**Pacific Bonsai Museum — Digital Asset Management Redesign**
+*Software Consultant Capstone · Dec 2025 – Present*
+[Smart Image Uploader for Pacific Bonsai Museum](https://team-bloom-capstone-image-uploader-1.onrender.com)
+ 
+Working with the Pacific Bonsai Museum to rebuild how they catalog and search their image library. The museum's current SharePoint setup makes it hard for staff to find specific bonsai portraits or pull relevant images for exhibits, so we're wrapping a computer vision pipeline around the tools they already use day-to-day — no migration, no new platform for staff to learn.
+ 
+**Project Goals**
+- Streamline and future-proof media organization and storage for the museum
+- Build an upload and tagging interface that non-technical museum staff can use without training
+- Extend the museum's SharePoint setup to support text-to-image search, auto-generated metadata, and dynamic folder structures
+**Process & My Contributions**
+ 
+We're a five-person team consisting of two developers, a project manager, and two UX designers. I am the lead developer and have worked to build a user-friendly interface that seamlessly integrates with the museum's existing Sharepoint system to create an intuitive media processing solution. The interface allows the museum staff to more easily work through their backlog of photos as well as process new media without needing technical skills or an extensive knowledge of Sharepoint.
+
+Using Microsoft's Azure API, users are able to automatically batch-tag photos with AI-generated alt text. These tags not only serve as a visual description of each image, but also enable text-to-image search in Sharepoint through vector searching. Additionally, our interface provides several configurable metadata fields which can also be applied automatically to any selection of images. When combined with the changes we've made to the underlying Sharepoint storage, this solution makes the museum's digital asset management system more dynamic, organized, and searchable.
+
+On the team side, we've been running regular check-ins with museum staff since winter quarter. They aren't engineers, so a lot of the work has been translating their actual workflow into something we can build against and that they can maintain easilt. We presented an MVP at the end of winter, took feedback, scoped a few features down, and updated the project plan going into spring. The tagging logic in particular went through a couple of redesigns once curators saw it in action.
+ 
+**Takeaways**
+- Building for non-technical end users forces different tradeoffs than building for yourself. The curators care more about whether the tagging is *consistent* than whether the model is state-of-the-art.
+- Real-world data is messier than benchmark data. We spent more time curating a dataset than we did tuning a model which we had to abandon anyways.
+- Deadends are a natural outcome of the design process. As a developer, you must be ready to change courses or abandon ideas.
+- A lot of "engineering" on a real client project is translation — between what the client says they want, what they actually need, and what we can ship in a quarter.
+**Next Steps**
+- Finalize the metadata suggestion logic and dynamic folder rules in Power Automate
+- Run end-to-end testing with museum staff using their actual image backlog
+- Write handoff documentation so the system stays maintainable after the team graduates
+**Tech:** PyTorch · YOLOv8 · Azure · SharePoint · Power Automate
+ 
+---
 
 ### 🛠️ Projects
-
-**Software Consultant Capstone — Pacific Bonsai Museum**
-*Dec 2025 – Present*
-
-Working as a software consultant for the Pacific Bonsai Museum to modernize their digital asset management and species identification workflow. Building a computer vision pipeline to classify bonsai species from images and integrating it with the museum's SharePoint-based image library.
-
-- Training a YOLOv8 object detection model to identify and classify bonsai species
-- Configuring SharePoint search schema and Power Automate flows for the museum's digital catalog
-- Collaborating directly with museum staff to translate non-technical needs into working solutions
-
-**Tech:** PyTorch, YOLOv8, Azure API, Power Automate, SharePoint
-
----
 
 **CareerFlo**
 
